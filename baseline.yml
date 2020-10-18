@@ -7,6 +7,4 @@ dependencies:
   - cudnn=7.6.5=cuda10.1_0
   - fasttext=0.2.0=hfc679d8_1
   - hdf5=1.10.4=hb1b8bf9_0
-  - ipykernel=5.3.4=py36h5ca1d4c_0
-  - jupyterlab=2.2.6=py_0
 prefix: /root/anaconda3/envs/baseline
