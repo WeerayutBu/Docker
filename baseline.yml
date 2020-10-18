@@ -3,8 +3,5 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - _tflow_select=2.1.0=gpu
-  - async_generator=1.10=py36h28b3542_0
-  - attrs=20.2.0=py_0
+
 prefix: /home/install/anaconda3/envs/baseline
