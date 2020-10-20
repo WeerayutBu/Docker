@@ -22,6 +22,7 @@ RUN bash Anaconda3.sh -b
 RUN rm Anaconda3.sh
 
 # Set path to conda
+# conda create -n baseline python=3.6
 ENV PATH /root/anaconda3/bin:$PATH
 #ENV PATH /home/ubuntu/anaconda3/bin:$PATH
 
