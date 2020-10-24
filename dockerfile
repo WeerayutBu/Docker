@@ -46,6 +46,7 @@ RUN pip install spacy
 RUN pip install torch
 RUN pip install overrides
 RUN pip install matplotlib
+RUN pip install torchvision
 
 
 #RUN conda update conda
