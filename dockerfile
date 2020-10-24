@@ -45,6 +45,7 @@ RUN pip install scipy
 RUN pip install spacy
 RUN pip install torch
 RUN pip install overrides
+RUN pip install matplotlib
 
 
 #RUN conda update conda
