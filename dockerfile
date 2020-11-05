@@ -77,3 +77,7 @@ EXPOSE 8888
 EXPOSE 22
 EXPOSE 6006
 
+
+
+### additional installation ##
+# apt-get install vim
