@@ -6,4 +6,5 @@ dependencies:
   - cudatoolkit=10.1
   - fasttext
   - hdf5
+  - tmux=3.1
 prefix: /root/anaconda3/envs/baseline
