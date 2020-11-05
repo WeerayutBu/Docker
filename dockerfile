@@ -75,7 +75,14 @@ EXPOSE 6006
 ### (1)
 # apt-get install vim
 # pip install -r /home/docker/requirements.txt
-# conda install pytorch torchvision -c pytorch
+
+# pip install torch==1.6.0
+# pip install gensim
+# pip install pytz
+# pip install numpy
+# pip install spacy
+# pip install tensorboard
+# pip install allennlp
 
 ## Conda
 # cd /root/anaconda3/bin
@@ -84,6 +91,7 @@ EXPOSE 6006
 # conda env create -f /home/docker/baseline.yml
 # conda activate baseline
 # conda install -c conda-forge tmux 
+
 
 ### (2) ** bashrc  
 ## ==> $ vi ~/.bashrc
