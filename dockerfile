@@ -75,6 +75,7 @@ EXPOSE 6006
 ### (1)
 # apt-get install vim
 # pip install -r /home/docker/requirements.txt
+# conda install pytorch torchvision -c pytorch
 
 ## Conda
 # cd /root/anaconda3/bin
