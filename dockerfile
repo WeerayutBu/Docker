@@ -51,19 +51,11 @@ RUN pip install torchvision
 
 #RUN conda update conda
 RUN conda install -c pytorch pytorch 
-RUN conda install -c conda-forge tmux 
 
 # Run environment
 RUN git clone https://github.com/WeerayutBu/docker.git
-#RUN pip install -r /home/docker/requirements.txt
-#RUN conda env create -f /home/docker/baseline.yml
-#RUN conda activate baseline
 
 # Initail conda 
-# or bash use:
-# cd /root/anaconda3/bin
-# ./conda init bash
-# source ~/.bashrc
 RUN export PATH=~/root/anaconda3/bin:$PATH
 
 
@@ -80,4 +72,26 @@ EXPOSE 6006
 
 
 ### additional installation ##
+### (1)
 # apt-get install vim
+# pip install -r /home/docker/requirements.txt
+
+## Conda
+# cd /root/anaconda3/bin
+# ./conda init bash
+# source ~/.bashrc
+# conda env create -f /home/docker/baseline.yml
+# conda activate baseline
+# conda install -c conda-forge tmux 
+
+### (2) ** bashrc  
+## ==> $ vi ~/.bashrc
+# alias now="echo 'SCADs root'"
+# alias data="cd /home/load_data/"
+# alias home="cd /home"
+# alias embedding="cd /home/embedding/"
+# alias model="cd /home/models/baseline/"
+# alias info='cat /etc/bash.bashrc'
+# alias modelenv='conda activate baseline'
+
+
