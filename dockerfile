@@ -63,6 +63,7 @@ RUN git clone https://github.com/WeerayutBu/docker.git
 # or bash use:
 # cd YOUR_PATH_ANACONDA/bin
 # ./conda init bash
+# source ~/.bashrc
 RUN export PATH=~/root/anaconda3/bin:$PATH
 
 
@@ -70,6 +71,9 @@ RUN export PATH=~/root/anaconda3/bin:$PATH
 RUN apt-get -y install openssh-client
 
 # Listens port:
+# jupyter lab --ip=0.0.0.0 --allow-root
+# tensorboard --logdir=runs --host=0.0.0.0
 EXPOSE 8888
 EXPOSE 22
 EXPOSE 6006
+
