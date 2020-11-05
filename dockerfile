@@ -59,6 +59,10 @@ RUN git clone https://github.com/WeerayutBu/docker.git
 #RUN conda env create -f /home/docker/baseline.yml
 #RUN conda activate baseline
 
+# Initail conda 
+# or bash use:
+# cd YOUR_PATH_ANACONDA/bin
+# ./conda init bash
 RUN export PATH=~/root/anaconda3/bin:$PATH
 
 
