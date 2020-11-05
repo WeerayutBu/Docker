@@ -61,7 +61,7 @@ RUN git clone https://github.com/WeerayutBu/docker.git
 
 # Initail conda 
 # or bash use:
-# cd YOUR_PATH_ANACONDA/bin
+# cd /root/anaconda3/bin
 # ./conda init bash
 # source ~/.bashrc
 RUN export PATH=~/root/anaconda3/bin:$PATH
