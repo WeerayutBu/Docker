@@ -83,6 +83,7 @@ EXPOSE 6006
 # pip install spacy
 # pip install tensorboard
 # pip install allennlp
+# conda install -c anaconda git
 
 ## Conda
 # cd /root/anaconda3/bin
