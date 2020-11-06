@@ -92,6 +92,9 @@ EXPOSE 6006
 # conda activate baseline
 # conda install -c conda-forge tmux 
 
+## jupyter
+# conda install nb_conda
+# conda install jupyterlab
 
 ### (2) ** bashrc  
 ## ==> $ vi ~/.bashrc
