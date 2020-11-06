@@ -106,4 +106,6 @@ EXPOSE 6006
 # alias info='cat /etc/bash.bashrc'
 # alias modelenv='conda activate baseline'
 
+# CUDA_VISIBLE_DEVICES=1 python main.py
+
 
