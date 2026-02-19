@@ -1,9 +1,2 @@
-allennlp==1.1.0
-gensim==3.8.3
-h5py==2.10.0
-ipykernel==5.3.4
-json5==0.9.5
-jsonpickle==1.4.1
-jupyterlab==2.2.6
-nltk==3.5
-tensorboard==2.3.0
+fastapi
+uvicorn[standard]
