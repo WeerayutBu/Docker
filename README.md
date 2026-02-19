@@ -5,7 +5,7 @@ This project uses Docker to build and run the application (FastAPI) in a contain
 
 | File                 | Purpose                                                          |
 | -------------------- | -----------------------------------------------------------------|
-| `Dockerfile`         | Defines how the app is built and the Python runtime `environment`|
+| `Dockerfile`         | Defines how Docker builds and runs the application.|
 | `requirements.txt`   | Lists Python dependencies to be installed                        |
 | `.dockerignore`      | Excludes unnecessary files from the Docker build context         |
 
@@ -59,4 +59,4 @@ docker pull username/fastapi:latest
 ### Common command
 - Stop container: `docker stop <CONTAINER_ID>`
 - Remove image: `docker images` then `docker rmi 53c25b2d0faa`.
-- cleanup `docker container prune -f`, `docker image prune -af`, and `docker builder prune -af`
+- cleanup `docker container prune -f`, `docker image prune -af`, `docker system prune -af --volumes`, and `docker builder prune -af`
