@@ -28,6 +28,13 @@ docker build -t username/fastapi:latest .
 docker images
 ```
 
+## Using the image as the environment
+```
+docker run -p 8800:8080 \
+  username/fastapi:latest \
+  uvicorn app.main:app --host 0.0.0.0 --port 8080
+```
+
 
 ## Run the container
 ```bash
