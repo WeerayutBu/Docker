@@ -23,7 +23,6 @@ This project uses Docker to build and run the application (FastAPI) in a contain
 ```bash
 # Build the image
 docker build -t username/fastapi:latest .
-
 # Verify the image
 docker images
 ```
@@ -31,6 +30,7 @@ docker images
 ## Using the image as the environment
 ```
 docker run -p 8800:8080 \
+  --gpus all \
   username/fastapi:latest \
   uvicorn app.main:app --host 0.0.0.0 --port 8080
 ```
