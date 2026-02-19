@@ -67,4 +67,5 @@ docker pull username/fastapi:latest
 - Stop container: `docker stop <CONTAINER_ID>`
 - Remove image: `docker images` then `docker rmi 53c25b2d0faa`.
 - Cleanup `docker container prune -f`, `docker image prune -af`, `docker system prune -af --volumes`, and `docker builder prune -af`
-- Save and copy an image `docker save image:latest | gzip > image.tar.gz`.
+- Save an image `docker save image:latest | gzip > image.tar.gz`.
+- Load an image `gunzip -c retriever.tar.gz | docker load`.
